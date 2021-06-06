@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/blue_friends"
+        android:layout_gravity="center"
+        android:text="Profile"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_medium" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:elevation="6dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blank_profile"
+            android:id="@+id/profilePic" />
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Name"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/helvetica"
+        android:id="@+id/profileName"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneProfile"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/helvetica"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="9000000000"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/round_corners"
+        android:elevation="6dp"
+        android:hint="about"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/UpdateAbout"
+        android:backgroundTint="@color/blue_friends"
+        android:textSize="20dp"
+        android:text="Update about"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_medium"
+        />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectHomeLocation">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/selectHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="end"
+            android:id="@+id/current_loc"
+            android:background="@drawable/round_button"
+            android:elevation="8dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="50dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/setLocation"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="8dp"
+            android:background="@drawable/round_corners"
+            android:text="Set home location"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            style="@style/button"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

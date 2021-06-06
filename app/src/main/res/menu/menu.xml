@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/profileuser"
+            android:iconTint="@color/black"
+            />
+
+        <item
+            android:id="@+id/Friends"
+            android:title="Requests"
+            android:iconTint="@color/black"
+            android:icon="@drawable/ic_baseline_tag_faces_24"
+            />
+        <item
+            android:id="@+id/vehicle_info"
+            android:title="Vehicle Info"
+            android:iconTint="@color/black"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            />
+
+        <item
+            android:id="@+id/yourRequests"
+            android:title="Your requests"
+            android:icon="@drawable/mail"
+            />
+        <item
+            android:id="@+id/changeHome"
+            android:title="Change home Location"
+            android:iconTint="@color/black"
+            android:icon="@drawable/ic_baseline_location_on_24"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@color/black"
+            />
+    </group>
+
+</menu>

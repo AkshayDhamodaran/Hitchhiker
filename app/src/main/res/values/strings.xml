@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Hitchhiker</string>
+    <string name="enter_your_phone_number">Enter Your phone number:</string>
+    <string name="phone_number">  Phone number:</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter OTP:</string>
+    <string name="otp">OTP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="colleges">
+        <item>None</item>
+        <item>Sri Krishna Engineering college</item>
+        <item>Sri Krishna college of Technology</item>
+        <item>Sri Krishna arts and Science college</item>
+        <item>PSG college of Technology</item>
+        <item>PSG college of Arts and Science</item>
+        <item>PSGR Krishnammal college of Arts and Science</item>
+        <item>SNS college of Arts and Science</item>
+        <item>Sri Ramakrishna Engineering college</item>
+        <item>Sri Ramakrishna college of Technology</item>
+        <item>Nehru College of Aeronautics</item>
+        <item>Amritha university</item>
+        <item>Kumraguru college of Technology</item>
+    </string-array>
+    <string-array name="gender">
+        <item>----</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="vehicle_type">
+        <item>None</item>
+        <item>Bike</item>
+        <item>Car</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_test_maps">Map</string>
+    <string name="Cancel">cancel</string>
+    <string name="gps_network_not_enabled">Location not enabled</string>
+    <string name="open_location_settings">open settings</string>
+    <string name="title_location_permission">Permission</string>
+    <string name="text_location_permission">This app requires location permission</string>
+    <string name="ok">ALLOW</string>
+    <string name="your_requests">Your Requests</string>
+</resources>

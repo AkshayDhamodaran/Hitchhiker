@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VehicleInfoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/blue_friends"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Vehicle info"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Type:"
+        android:layout_marginTop="35dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/helvetica"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scrollbarSize="100dp"
+        android:id="@+id/spinner"
+        android:background="@color/off_white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Number:"
+        android:layout_marginTop="35dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/helvetica"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/off_white"
+        android:id="@+id/vehicle_number"
+        android:hint="Vehicle Number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+        style="@style/button"
+        android:text="Submit"/>
+</LinearLayout>
